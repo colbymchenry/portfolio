@@ -1,7 +1,8 @@
 import Link from "next/link";
-import Carousel from "../Carousel";
 import IProject from "./IProject";
 import styles from "./styles.module.scss";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from "react-responsive-carousel";
 
 export default function Projects({ projects }: any) {
     return (
@@ -14,10 +15,12 @@ export default function Projects({ projects }: any) {
                 return (
                     <div key={i} className={styles.project}>
                         <div className={styles.imgContainer}>
-                            <Carousel autoSlide={true}>
+                            <Carousel showThumbs={false} showIndicators={false} autoPlay={true} emulateTouch={true} infiniteLoop={true} preventMovementUntilSwipeScrollTolerance={true} swipeable={true}>
                                 {obj.photos.map((src: string, i: number) => {
                                     return (
+                                        <div key={i}>
                                         <img className={"object-contain"} key={i} src={src} />
+                                        </div>
                                     )
                                 })}
                             </Carousel>
