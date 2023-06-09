@@ -1,0 +1,49 @@
+.about {
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 py-[10rem] px-[1rem] md:px-[3rem];
+
+    > div {
+        @apply w-auto md:w-[75%] lg:w-auto;
+        margin: 0 auto;
+
+        // rotating front end developer text
+        > div {
+            @apply hidden md:flex;
+        }
+    }
+
+    > div:last-of-type {
+        @apply text-center lg:text-left;
+    }
+
+    h1 {
+        @apply text-xl;
+        color: #147efb;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        @apply text-2xl;
+        font-weight: bold;
+        color: #2d2e32;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        @apply text-base;
+        color: #767676;
+    }
+}
+
+.spin {
+    animation: spin 9s linear infinite;
+    background: white;
+    border-radius: 100%;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,13 @@
+.footer {
+    @apply w-full flex items-center justify-between text-white;
+    background-color: #2d2e32;
+    padding: 3rem 2rem;
+
+    h1 {
+        @apply font-extrabold md:text-lg;
+    }
+
+    a {
+        @apply hover:scale-110 transition-all;
+    }
+}

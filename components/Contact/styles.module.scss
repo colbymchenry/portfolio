@@ -1,0 +1,36 @@
+.contact {
+    @apply py-[5rem] px-[1rem] md:px-[3rem];
+
+    h1 {
+        @apply text-xl;
+        color: #147efb;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        @apply text-2xl;
+        font-weight: bold;
+        color: #2d2e32;
+        margin-bottom: 2rem;
+    }
+
+    .contactInfo {
+        @apply flex items-center gap-4;
+
+        h3 {
+            @apply font-bold;
+        }
+
+        h4 {
+            @apply hover:text-blue-500 transition;
+            color: #767676;
+        }
+
+        > i {
+            @apply flex items-center justify-center rounded-full w-[84px] h-[84px] text-blue-500 text-3xl;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.container {
+    @apply flex flex-col p-6 lg:p-12 pb-20;
+    background-color: rgb(249, 249, 249);
+
+    .techStack {
+        @apply flex items-center mt-20 lg:mt-6 flex-col lg:flex-row;
+
+        span {
+            @apply font-bold lg:pr-6 lg:mr-6 lg:border-r-2 lg:border-b-0 lg:pb-0 lg:mb-0 border-solid border-gray-400 pb-2 mb-6 border-b-2;
+        }
+
+        > div {
+            @apply flex items-center flex-wrap gap-4 justify-center lg:gap-0 lg:justify-start;
+
+            > div {
+                @apply flex items-center justify-center rounded-full w-[64px] h-[64px] mr-4;
+                box-shadow: 0 0 10px rgba(0,0,0,.09)
+            }
+        }
+    }
+}
+
+
+
+.hero {
+    @apply flex items-center justify-center lg:justify-between gap-12 flex-wrap-reverse lg:flex-nowrap text-center lg:text-left;
+
+    h1 {
+        @apply text-4xl sm:text-6xl font-extrabold text-center lg:text-left;
+
+        img {
+            @apply w-[32px] h-[32px] sm:w-[64px] sm:h-[64px];
+        }
+    }
+
+    p {
+        color: #555;
+    }
+
+    .hero__img {
+        @apply h-[20rem] w-[20rem] lg:w-[30rem] lg:h-[30rem];
+        -webkit-animation: morph 8s ease-in-out infinite;
+        animation: morph 8s ease-in-out infinite;
+        background-image: url("/me-min.jpg");
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: 3px solid #2d2e32;
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        position: relative;
+        transition: all 1s ease-in-out;
+    }
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
