@@ -1,5 +1,6 @@
 .about {
-    @apply grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 py-[10rem] px-[1rem] md:px-[3rem];
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 py-[10rem] px-[1rem] md:px-[3rem] max-w-[1200px];
+    margin: 0 auto;
 
     > div {
         @apply w-auto md:w-[75%] lg:w-auto;

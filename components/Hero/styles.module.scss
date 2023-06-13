@@ -1,6 +1,10 @@
-.container {
-    @apply flex flex-col p-6 lg:p-12 pb-20;
+.outerContainer {
     background-color: rgb(249, 249, 249);
+}
+
+.container {
+    @apply flex flex-col p-6 lg:p-12 pb-20 max-w-[1200px];
+    margin: 0 auto;
 
     .techStack {
         @apply flex items-center mt-20 lg:mt-6 flex-col lg:flex-row;

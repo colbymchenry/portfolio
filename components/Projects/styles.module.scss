@@ -1,6 +1,10 @@
-.projects {
-    @apply flex flex-col py-[10rem] px-[1rem] md:px-[3rem];
+.projectsContainer {
     background-color: rgb(249, 249, 249);
+}
+
+.projects {
+    @apply flex flex-col py-[10rem] px-[1rem] md:px-[3rem] gap-10 max-w-[1200px];
+    margin: 0 auto;
 
     > div {
         @apply flex flex-col gap-10 lg:gap-20;
@@ -22,12 +26,15 @@
     }
 
     .project {
-        @apply bg-white flex flex-col lg:grid justify-center rounded-2xl p-4 gap-6 items-stretch;
-        grid-template-columns: 1fr 0.4fr;
+        @apply bg-white flex flex-col lg:flex-row justify-center rounded-2xl p-4 gap-6 items-center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+        &:nth-child(2n) {
+            @apply lg:flex-row-reverse;
+        } 
+
         > div:last-of-type {
-            @apply flex flex-col justify-evenly h-full;
+            @apply flex flex-col justify-evenly h-full md:min-w-[500px] md:max-w-[500px];
         }
 
         .imgContainer {
@@ -47,7 +54,7 @@
         }
 
         .stack {
-            @apply flex flex-wrap lg:flex-nowrap items-center justify-center gap-4;
+            @apply flex flex-wrap items-center justify-center gap-4;
 
             span {
                 @apply bg-white text-black font-bold;
