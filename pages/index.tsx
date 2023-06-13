@@ -45,7 +45,7 @@ export async function getServerSideProps(context: any) {
           photos: ['/MightyShop/1.png', '/MightyShop/2.png', '/MightyShop/3.png', '/MightyShop/4.png', '/MightyShop/5.png', '/MightyShop/6.png', '/MightyShop/7.png', '/MightyShop/8.png', '/MightyShop/9.png', '/MightyShop/10.png', '/MightyShop/11.png']
         },
         {
-          name: 'Lima One Capital 🛠',
+          name: 'Lima One Capital 🚀',
           stack: ['ReactJS', 'SCSS', 'SalesForce', 'Mulesoft'],
           body: 'While spending my time at Swarm/SCS I was assigned the second largest client at the company, Lima One Capital. I managed this client fully backend and frontend, developing their ReactJS portal and maintaing a Mulesoft Java backend with SalesForce as a Database, User authentication, and email marketing system. I built out reusable components using ReactJS and SCSS to deliver a robust and powerful platform for lendors to approve or deny loan requests, view loan statuses, manage loans and properties, and more. Lima One Capital was built out with multiple views for Sales Reps, Clients, and Staff. Each having a unique view to manage any number of loans going on in the company.',
           photos: ['/LimaOne/1.png']
@@ -59,7 +59,7 @@ export async function getServerSideProps(context: any) {
           photos: ['/BAM/1.png', '/BAM/2.png', '/BAM/3.png']
         },
         {
-          name: 'Mifland 👩🏼‍⚕️',
+          name: 'Mifland 👜',
           stack: ['Shopify', 'Liquid', 'SCSS'],
           demo: 'https://mifland.com/',
           body: 'Mifland was another Shopify client of mine in Atlanta, GA. They strive to bring hand made high quality apparel to their customers. Each leather bag is hand made by the owner, Tobi. They asked me to come in and completely customize their storefront. This included a custom quick add to cart on collections, custom navbar and hero video, collection blocks, and more.',
