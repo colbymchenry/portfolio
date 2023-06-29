@@ -51,6 +51,13 @@ export async function getServerSideProps(context: any) {
           photos: ['/LimaOne/1.png']
         },
         {
+          name: 'Strata 😎',
+          stack: ['Shopify', 'Liquid', 'SCSS'],
+          demo: 'https://strataclothing.com/',
+          body: 'During my collaboration with Strata, a Shopify client specializing in premium apparel, I had the opportunity to showcase my skills on their storefront. Strata is known for its commitment to delivering top-notch clothing items while prioritizing effective marketing strategies and establishing a strong brand presence. They sought my expertise in customizing their storefront to reflect their distinctive identity.<br /><br />I embarked on an extensive customization project that involved tailoring various aspects of the website to perfectly align with Strata\'s brand. This included the creation of a personalized quick add-to-cart functionality for collections, the design of custom collections and components, the development of a unique and eye-catching navbar, and the incorporation of customized collection blocks. Additionally, I delivered additional features that were specifically tailored to enhance the overall user experience and reinforce the brand\'s presentation.',
+          photos: ['/Strata/1.png', '/Strata/2.png', '/Strata/3.png', '/Strata/4.png', '/Strata/5.png']
+        },
+        {
           name: 'Balanced Aesthetics 👩🏼‍⚕️',
           stack: ['Shopify', 'Liquid', 'CSS'],
           demo: 'https://balancedaestheticsmedspa.com/',
