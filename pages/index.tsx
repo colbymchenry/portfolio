@@ -51,6 +51,12 @@ export async function getServerSideProps(context: any) {
           photos: ['/LimaOne/1.png']
         },
         {
+          name: 'Net Scraper 👾',
+          stack: ['ReactJS', 'SCSS', 'TypeScript', 'TailwindCSS', 'ChatGPT', 'Google API', 'BigCommerce API'],
+          body: 'Net Scraper is an advanced Platform as a Service (PaaS) solution that leverages a powerful stack of technologies, including Tailwind, TypeScript, ReactJS, Puppeteer, Google Drive API, ChatGPT API, BigCommerce API, and more. Its primary objective is to provide users with a seamless experience in creating their own web-crawling tool. With Net Scraper, users can effortlessly navigate through collection pages and extract comprehensive product information.<br /><br />All the extracted data, along with any scraped images, is securely stored in Google Firebase. This centralized repository enables users to export the collected information to Google Drive sheets or BigCommerce.<br /><br />As an added convenience, Net Scraper facilitates image uploads from Firebase to Google Drive. Additionally, users can leverage the capabilities of ChatGPT to format or rewrite exported data, ensuring the utmost accuracy and precision in their output.',
+          photos: ['/NetScraper/1.jpg', '/NetScraper/2.jpg', '/NetScraper/3.jpg', '/NetScraper/4.jpg', '/NetScraper/5.jpg', '/NetScraper/5.1.jpg', '/NetScraper/6.jpg', '/NetScraper/7.jpg', '/NetScraper/8.jpg', '/NetScraper/9.jpg']
+        },
+        {
           name: 'Strata 😎',
           stack: ['Shopify', 'Liquid', 'SCSS'],
           demo: 'https://strataclothing.com/',
