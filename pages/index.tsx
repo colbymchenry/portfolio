@@ -46,7 +46,7 @@ export async function getServerSideProps(context: any) {
           photos: ['/RegenMD/1.png', '/RegenMD/2.png', '/RegenMD/3.png', '/RegenMD/4.png', '/RegenMD/5.png', '/RegenMD/6.png', '/RegenMD/7.png', '/RegenMD/8.png', '/RegenMD/9.png', '/RegenMD/10.png', '/RegenMD/11.png']
         },
         {
-          name: 'MyGPT 😎',
+          name: 'MyGPT 🔧',
           stack: ['ReactJS', 'NodeJS', 'NextJS', 'TypeScript', 'ChatGPT'],
           demo: 'https://gptbinder.vercel.app/',
           github: 'https://github.com/colbymchenry/mygpt',
@@ -54,7 +54,7 @@ export async function getServerSideProps(context: any) {
           photos: ['/MyGPT/1.png', '/MyGPT/2.png', '/MyGPT/3.png', '/MyGPT/4.png', '/MyGPT/5.png']
         },
         {
-          name: 'Simple Portfolio 💎',
+          name: 'Simple Portfolio 🫵',
           stack: ['ReactJS'],
           body: "Akanni Marketing is a specialized agency catering exclusively to eCommerce brands. Our mission for this client was clear: create a website that is both elegantly simple and highly readable, while also incorporating compelling calls to action. To streamline the client's workflow, we seamlessly integrated TypeForm, allowing for easy configuration of their intake forms for new business inquiries.",
           demo: 'https://akanni.marketing',
