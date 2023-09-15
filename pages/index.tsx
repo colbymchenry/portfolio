@@ -39,6 +39,28 @@ export async function getServerSideProps(context: any) {
           photos: ['/FullSchedule/1.png', '/FullSchedule/2.png', '/FullSchedule/3.png', '/FullSchedule/4.png', '/FullSchedule/5.png', '/FullSchedule/6.png']
         },
         {
+          name: 'RegenMD 👩🏼‍⚕️',
+          stack: ['Shopify', 'Liquid', 'CSS', 'ReactJS', 'TypeScript', 'JS'],
+          demo: 'https://regenmdwellness.com/',
+          body: 'RegenMD, headquartered in Atlanta, GA, specializes in delivering Telehealth peptide services directly to your home. Their comprehensive range includes peptides and hormone treatments for a wide array of needs. My task was to design a website that exudes professionalism while maintaining a sense of comfort and safety. Additionally, I undertook extensive custom development, including the creation of a React-based peptide finder quiz, seamlessly integrated with Shopify. I also crafted a custom state map selector, allowing users to easily locate providers and services within their coverage area.',
+          photos: ['/RegenMD/1.png', '/RegenMD/2.png', '/RegenMD/3.png', '/RegenMD/4.png', '/RegenMD/5.png', '/RegenMD/6.png', '/RegenMD/7.png', '/RegenMD/8.png', '/RegenMD/9.png', '/RegenMD/10.png', '/RegenMD/11.png']
+        },
+        {
+          name: 'MyGPT 😎',
+          stack: ['ReactJS', 'NodeJS', 'NextJS', 'TypeScript', 'ChatGPT'],
+          demo: 'https://gptbinder.vercel.app/',
+          github: 'https://github.com/colbymchenry/mygpt',
+          body: "My friend, who owns multiple eCommerce brands, once shared his experience of managing various GPT models across his business operations. However, he found that using OpenAI's platform became cluttered and challenging to keep organized. This led to the creation of MyGPT, a platform designed to simplify the process of creating pre-prompted GPT profiles, effectively turning them into useful 'tools.' To get started, simply sign up and add your GPT token to your account through the Settings menu, accessible via the avatar dropdown in the header. Explore the convenience of MyGPT today!",
+          photos: ['/MyGPT/1.png', '/MyGPT/2.png', '/MyGPT/3.png', '/MyGPT/4.png', '/MyGPT/5.png']
+        },
+        {
+          name: 'Simple Portfolio 💎',
+          stack: ['ReactJS'],
+          body: "Akanni Marketing is a specialized agency catering exclusively to eCommerce brands. Our mission for this client was clear: create a website that is both elegantly simple and highly readable, while also incorporating compelling calls to action. To streamline the client's workflow, we seamlessly integrated TypeForm, allowing for easy configuration of their intake forms for new business inquiries.",
+          demo: 'https://akanni.marketing',
+          photos: ['/AkanniMarketing/1.png', '/AkanniMarketing/2.png', '/AkanniMarketing/3.png', '/AkanniMarketing/4.png']
+        },
+        {
           name: 'MightyShop 💎',
           stack: ['SvelteKit', 'SCSS', 'TailwindCSS', 'Firebase', 'Lightspeed'],
           body: 'MightyShop was developed in response to a prominent Vape & CBD chain based in Atlanta, GA, seeking a robust solution for their wholesale product portal and customizable front-end store. To meet their requirements, I implemented Firebase for user authentication, real-time database functionality, file storage, and OTP authentication. Leveraging the Shopify schema, I successfully constructed a similar system that empowered me to create editable widgets and components. Each widget comprises a .json file and a corresponding .svelte file. The .json file serves as the widget\'s schema and settings, which are passed as props and stored in Firebase for specific configurations.<br /><br />To facilitate payment processing, refunds, shipping labels, as well as email and SMS marketing, and customer/cart management, we seamlessly integrated with Lightspeed POS. Due to client confidentiality, the code cannot be shared publicly, as per their request.',
