@@ -29,31 +29,31 @@ export default function Hero() {
                     <span>Tech Stack</span>
                     <div>
                         <div>
-                            <Image src={'/html5.svg'} width={32} height={32} alt="HTML5" />
+                            <Image src={'/html5.svg'} width={32} height={32} alt="HTML5" loading="eager" />
                         </div>
                         <div>
-                            <Image src={'/css3.svg'} width={32} height={32} alt="CSS3" />
+                            <Image src={'/css3.svg'} width={32} height={32} alt="CSS3" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/js.svg'} width={32} height={32} alt="JavaScript" />
+                            <Image src={'/js.svg'} width={32} height={32} alt="JavaScript" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/react.svg'} width={32} height={32} alt="ReactJS" />
+                            <Image src={'/react.svg'} width={32} height={32} alt="ReactJS" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/scss.svg'} width={32} height={32} alt="SCSS" />
+                            <Image src={'/scss.svg'} width={32} height={32} alt="SCSS" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/tailwind.svg'} width={32} height={32} alt="Tailwind" />
+                            <Image src={'/tailwind.svg'} width={32} height={32} alt="Tailwind" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/svelte.svg'} width={32} height={32} alt="Svelte" />
+                            <Image src={'/svelte.svg'} width={32} height={32} alt="Svelte" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/laravel.svg'} width={32} height={32} alt="Laravel" />
+                            <Image src={'/laravel.svg'} width={32} height={32} alt="Laravel" loading="eager"  />
                         </div>
                         <div>
-                            <Image src={'/nextjs.svg'} width={32} height={32} alt="NextJS" />
+                            <Image src={'/nextjs.svg'} width={32} height={32} alt="NextJS" loading="eager"  />
                         </div>
                     </div>
                 </div>
