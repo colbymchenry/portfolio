@@ -38,7 +38,16 @@ export default function Hero() {
                             <Image src={'/js.svg'} width={32} height={32} alt="JavaScript" loading="eager"  />
                         </div>
                         <div>
+                            <Image src={'/ts.svg'} width={32} height={32} alt="TypeScript" loading="eager"  />
+                        </div>
+                        <div>
                             <Image src={'/react.svg'} width={32} height={32} alt="ReactJS" loading="eager"  />
+                        </div>
+                        <div>
+                            <Image src={'/expo.svg'} width={32} height={32} alt="ReactNative and Expo" loading="eager"  />
+                        </div>
+                        <div>
+                            <Image src={'/arkit.png'} width={32} height={32} alt="ARKit" loading="eager"  />
                         </div>
                         <div>
                             <Image src={'/scss.svg'} width={32} height={32} alt="SCSS" loading="eager"  />
